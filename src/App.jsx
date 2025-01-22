@@ -6,7 +6,7 @@ const App = () => {
       <h2 className="convert-title">Currencey</h2>
       <form className="converter-form">
         <div className="form-group">
-          <label className="form-labrel">Plz enter amount</label>
+          <label className="form-labrel">Plz Enter Amount</label>
           <input type="number" className="form-input" required/>
         </div>
 
