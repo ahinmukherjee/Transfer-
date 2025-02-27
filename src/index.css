@@ -286,4 +286,38 @@ body{
   outline: none;
   min-height: 40px;
   border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+
+.form-currency{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency-select{
+  background: gray;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  min-height: 45px;
+}
+
+.currency-select img{
+  width: 30px;
+}
+
+.currency-dropdown{
+  outline: none;
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0 10px 0 5px;
+}
+
+.currency-dropdown option{
+  font-weight: 500;
 }

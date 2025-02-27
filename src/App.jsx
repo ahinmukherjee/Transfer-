@@ -11,7 +11,7 @@ const App = () => {
           <input type="number" className="form-input" required/>
         </div>
 
-        <div className="form-group">
+        <div className="form-group form-currency">
           <div className="form-selction">
             <label className="form-labrel">form</label>
             <div className="currency-select">
@@ -46,11 +46,11 @@ const App = () => {
               </select>
             </div>
           </div>
-
-         <button type="submit" className="submit-button">Start</button>
-
-         <p className="Exchange-result">1,000 usd= 83000 inr</p>
         </div>
+        <button type="submit" className="submit-button">Start</button>
+
+        <p className="Exchange-result">1,000 usd= 83000 inr</p>
+      
       </form>
     </div>
   )
